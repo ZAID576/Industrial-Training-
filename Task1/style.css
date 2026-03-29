@@ -338,8 +338,59 @@ section.services{
 
   }
 
+  /* .center1{
 
+  font-size: 96px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
 
+  } */
 
+  center.center2{
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 10px;
+  }
+}
+
+.Skills{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-box3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  .Card8,
+  .Card9,
+  .Card10,
+  .Card11{
+    height: 200px;
+    width: 200px;
+    border: 1px solid #9d9494;
+    border-radius: 9px;
+    padding: 15px 15px 15px 15px;
+    background-color: #2A2A2A;
+  }
+
+  .Heading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 12px;
+  }
+
+  .ui{
+    font-size: 13px;
+    border: 1px solid #ffffff;
+    border-radius: 9px;
+    padding: 5px;
+    background-color: #313131;
+  }
 
 }
