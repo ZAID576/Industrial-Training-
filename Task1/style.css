@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 25px 200px 25px 200px;
+  /* min-height: 100vh; */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;           /* keeps it at top when scrolling */
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 10;
+  
+  .logo { 
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #d9d1d1; 
+  
+  background-color: #6b6b66;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  }
+  
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 410px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid #d9d1d1; 
+
+  background-color: #1A1A1A;
+
+  a{
+    padding: 15px;
+    text-decoration: none;
+
+    color: #d9d1d1;
+
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid #fffcfc; 
+
+  background-color: #575656;
+
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+
+
+  section.Home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  /* border: 1px solid white; */
+
+  .button2{
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid #fffcfc; 
+
+    background-color: #575656;
+
+
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+
+
+  }
+
+
+  img{
+    height: 400px;
+  }
+}
+
+
+section.services{
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.card-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+  
+
+.Card1{
+  height: 300px;
+  width: 240px;
+  border: 1px solid #9d9494; 
+  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  background-color:#262626;
+  margin-right: 20px;
+
+  h3{
+   font-size: 22px;
+   margin-bottom: 10px;
+  }
+
+  p{
+   font-size: 15px;
+   color: #ffffff;
+   line-height: 20px;
+   margin-bottom: 15px;
+  }
+
+  hr{
+   margin-bottom: 7px;
+   /* background-color: #9d9494; */
+
+  }
+
+  span{
+    display: flex;
+
+    background-color: #2F2F2F;
+
+    width: 205px;
+    height: 40px;
+    border: 1px solid #fffcfc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+    transition: all 0.4s ease;
+    
+  }
+}
+
+.Card2{
+  height: 300px;
+  width: 240px;
+  border: 1px solid #9d9494; 
+  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  background-color:#262626;
+  margin-right: 20px;
+
+  h3{
+   font-size: 22px;
+   margin-bottom: 10px;
+  }
+
+  p{
+   font-size: 15px;
+   color: #ffffff;
+   line-height: 20px;
+   margin-bottom: 15px;
+  }
+
+  hr{
+   margin-bottom: 7px;
+
+  }
+
+  span{
+    display: flex;
+
+    background-color: #2F2F2F;
+
+    width: 205px;
+    height: 40px;
+    border: 1px solid #fffcfc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+    transition: all 0.4s ease;
+    
+  }
+}
+
+.Card3{
+  height: 300px;
+  width: 240px;
+  border: 1px solid #9d9494; 
+  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  background-color:#262626;
+  margin-right: 20px;
+
+  h3{
+   font-size: 22px;
+   margin-bottom: 10px;
+  }
+
+  p{
+   font-size: 15px;
+   color: #ffffff;
+   line-height: 20px;
+   margin-bottom: 15px;
+  }
+
+  hr{
+   margin-bottom: 7px;
+
+  }
+
+  span{
+    display: flex;
+
+    background-color: #2F2F2F;
+
+    width: 205px;
+    height: 40px;
+    border: 1px solid #fffcfc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+    transition: all 0.4s ease;
+    
+  }
+}
+
+.Card4{
+  height: 300px;
+  width: 240px;
+  border: 1px solid #9d9494; 
+  border-radius: 15px;
+  padding: 15px 15px 15px 15px;
+  background-color:#262626;
+  margin-right: 20px;
+
+  h3{
+   font-size: 22px;
+   margin-bottom: 10px;
+  }
+
+  p{
+   font-size: 15px;
+   color: #ffffff;
+   line-height: 20px;
+   margin-bottom: 15px;
+  }
+
+  hr{
+   margin-bottom: 7px;
+
+  }
+
+  span{
+    display: flex;
+
+    background-color: #2F2F2F;
+
+    width: 205px;
+    height: 40px;
+    border: 1px solid #fffcfc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+
+    transition: all 0.4s ease;
+    
+  }
+}
+
+
+.card-box2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+  .Card5,
+  .Card6,
+  .Card7{
+    height: 90px;
+    width: 360px;
+    border: 1px solid #9d9494;
+    border-radius: 9px; 
+    padding: 15px 15px 15px 15px;
+    background-color: #2A2A2A;
+    /* align-items: center; */
+
+  }
+
+  .serial{
+    border: 1px solid #9d9494;
+    border-radius: 9px;
+    padding: 15px 15px 15px 15px;
+    /* margin: 5px 5px 5px 5px ; */
+    background-color: #D1D1D1;
+    color: black;
+    font-weight: bold;
+  }
+
+  .serial2{
+    margin-left: 10px;
+    /* Add styles for the second serial class if needed */
+  }
+
+  .centerDiv{
+   margin: 18px 5px 5px 2px  ;
+
+  }
+
+
+
+
+
+}
