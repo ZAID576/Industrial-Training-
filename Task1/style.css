@@ -366,20 +366,8 @@ section.services{
   margin-top: 30px;
   margin-bottom: 30px;
 
-  .Card8,
-  .Card9,
-  .Card10,
-  .Card11{
-    height: 200px;
-    width: 500px;
-    border: 1px solid #9d9494;
-    border-radius: 9px;
-    padding: 15px 15px 15px 15px;
-    background-color: #2A2A2A;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
+ 
+ 
 
   .Heading{
     font-size: 20px;
@@ -395,11 +383,23 @@ section.services{
     padding: 5px;
     background-color: #313131;
      margin-top: 5px;
+    
 
 
   }
 
 }
+ .Card11{
+    height: 200px;
+    width: 500px;
+    border: 1px solid #9d9494;
+    border-radius: 9px;
+    padding: 15px 15px 15px 15px;
+    background-color: #2A2A2A;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
 
 /* Start Project Section */
 .StartProject {
@@ -587,4 +587,12 @@ section.services{
 
 .footerpara{
   margin-bottom: 20px;
+}
+
+.footericons{
+  padding: 10px;
+  border: 1px solid #9d9494;
+  margin :auto;
+  width: fit-content;
+
 }
