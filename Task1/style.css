@@ -580,3 +580,11 @@ section.services{
     flex: 0 0 auto;
   }
 }
+
+.footername{
+  margin-bottom: 14px;
+}
+
+.footerpara{
+  margin-bottom: 20px;
+}
