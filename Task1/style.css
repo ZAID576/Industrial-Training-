@@ -338,14 +338,14 @@ section.services{
 
   }
 
-  /* .center1{
+  .center1{
 
   font-size: 96px;
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 10px;
 
-  } */
+  }
 
   center.center2{
     font-size: 15px;
@@ -371,11 +371,14 @@ section.services{
   .Card10,
   .Card11{
     height: 200px;
-    width: 200px;
+    width: 500px;
     border: 1px solid #9d9494;
     border-radius: 9px;
     padding: 15px 15px 15px 15px;
     background-color: #2A2A2A;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
   }
 
   .Heading{
@@ -386,11 +389,194 @@ section.services{
   }
 
   .ui{
-    font-size: 13px;
+    font-size: 10px;
     border: 1px solid #ffffff;
     border-radius: 9px;
     padding: 5px;
     background-color: #313131;
+     margin-top: 5px;
+
+
   }
 
+}
+
+/* Start Project Section */
+.StartProject {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  b p {
+    font-size: 16px;
+    color: #d9d1d1;
+    margin-bottom: 40px;
+  }
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.form-section {
+  flex: 1;
+  border: 1px solid #9d9494;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #1A1A1A;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #ffffff;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 15px;
+
+    input {
+      flex: 1;
+    }
+  }
+
+  input,
+  select,
+  textarea {
+    padding: 12px 15px;
+    border: 1px solid #d9d1d1;
+    border-radius: 8px;
+    background-color: #262626;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+
+    &::placeholder {
+      color: #999;
+    }
+
+    &:focus {
+      outline: none;
+      border-color: #575656;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+
+  button {
+    padding: 12px 20px;
+    background-color: #575656;
+    border: 1px solid #fffcfc;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #6b6b66;
+    }
+  }
+}
+
+.contact-section {
+  flex: 1;
+  border: 1px solid #9d9494;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #ffffff;
+  }
+}
+
+.qr-box {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #d9d1d1;
+  border-radius: 10px;
+  background-color: #ffffff;
+
+  .qr-code {
+    width: 200px;
+    height: 200px;
+    display: block;
+  }
+}
+
+.email-box {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #9d9494;
+  border-radius: 10px;
+  background-color: #262626;
+
+  span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #d9d1d1;
+    margin-bottom: 15px;
+  }
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+  button {
+    padding: 10px 20px;
+    border: 1px solid #d9d1d1;
+    border-radius: 8px;
+    background-color: #575656;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #6b6b66;
+    }
+  }
+
+  .send-btn {
+    flex: 1;
+  }
+
+  .copy-btn {
+    flex: 0 0 auto;
+  }
 }
