@@ -590,9 +590,23 @@ section.services{
 }
 
 .footericons{
-  padding: 10px;
-  border: 1px solid #9d9494;
-  margin :auto;
-  width: fit-content;
+  /* padding: 10px; */
+  /* border: 1px solid #9d9494; */
+  /* margin :auto; */
+  /* width: fit-content; */
+  margin-bottom: 20px;
 
+}
+
+
+.AllRightReserved{
+  margin-top: 20px;
+}
+
+.footericons a {
+  margin-right: 15px;
+}
+
+.footericons a:last-child {
+  margin-right: 0;
 }
