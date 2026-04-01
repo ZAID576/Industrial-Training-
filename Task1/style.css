@@ -610,3 +610,74 @@ section.services{
 .footericons a:last-child {
   margin-right: 0;
 }
+
+
+.card-box4{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 25px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  flex-wrap: nowrap;
+}
+
+.card12,
+.card13,
+.card14,
+.card15 {
+  flex: 1;
+  border: 1px solid #9d9494;
+  border-radius: 15px;
+  padding: 0;
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 12px 15px 6px 15px;
+    color: #ffffff;
+  }
+  
+  p {
+    font-size: 13px;
+    color: #d9d1d1;
+    margin: 0 15px 12px 15px;
+    line-height: 1.5;
+    flex-grow: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 15px 15px 15px;
+    background-color: #575656;
+    border: 1px solid #fffcfc;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    align-self: flex-start;
+    
+    &:hover {
+      background-color: #6b6b66;
+    }
+  }
+}
