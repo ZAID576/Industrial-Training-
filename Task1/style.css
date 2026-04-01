@@ -421,7 +421,7 @@ section.services{
 .project-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 40px;
   margin-top: 40px;
 }
@@ -506,6 +506,7 @@ section.services{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-align: center;
 
   h2 {
