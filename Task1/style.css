@@ -46,7 +46,7 @@ nav {
   justify-content: center;
   align-items: center;
 
-  width: 470px;
+  width: 440px;
   height: 50px;
   border-radius: 15px;
   border: 1px solid #d9d1d1; 
@@ -112,8 +112,8 @@ button {
 
 
 section.services{
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .card-box{
@@ -356,8 +356,8 @@ section.services{
 }
 
 .Skills{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .card-box3{
@@ -404,12 +404,13 @@ section.services{
 
 /* Start Project Section */
 .StartProject {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
   h1 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
   }
 
   b p {
@@ -584,7 +585,7 @@ section.services{
 }
 
 .footername{
-  margin-bottom: 14px;
+  margin-bottom: 15px;
 }
 
 .footerpara{
