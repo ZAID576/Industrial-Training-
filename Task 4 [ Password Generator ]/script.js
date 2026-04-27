@@ -184,7 +184,23 @@ function generatePassword() {
     // passwordDisplay.value = "Qw3@xK9m"
     // User ko dekha jata hai generated password
     
+    // Copy button ko reset karo
+    resetCopyButton();
+    
     // RESULT: Ab screen par new password show hota hai!
+}
+
+// ========================================
+// RESET COPY BUTTON - COPIED STATE KO HATAO
+// ========================================
+function resetCopyButton() {
+    const svgIcon = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path>
+        <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
+    </svg>`;
+    copyBtn.innerHTML = svgIcon;
+    copyBtn.style.background = '#fff';
+    copyBtn.style.color = '#667eea';
 }
 
 // ========================================
@@ -218,19 +234,16 @@ copyBtn.addEventListener('click', () => {
         // Agar successfully copy ho gaya tab:
         
         // Button ka text change karo - dikhao user ko "Copied!"
-        const originalText = copyBtn.innerHTML;
-        // Original text save karo
-        
         copyBtn.innerHTML = '✓ Copied';
         // Copied likha do button par
         
         copyBtn.style.background = '#4ade80';
         // Green color kar do button ka
+        copyBtn.style.color = '#fff';
         
         // 2 seconds baad wapas original state mein aa jao
         setTimeout(() => {
-            copyBtn.innerHTML = originalText;
-            copyBtn.style.background = '#fff';
+            resetCopyButton();
         }, 2000);
         // setTimeout = "2000 millisecond (2 second) baad yeh function chalao"
         
@@ -358,10 +371,12 @@ copyButton.addEventListener('click', () => {
         const originalHTML = copyButton.innerHTML;
         copyButton.innerHTML = '✓ Copied';
         copyButton.style.background = '#4ade80';
+        copyButton.style.color = '#fff';
         
         setTimeout(() => {
             copyButton.innerHTML = originalHTML;
             copyButton.style.background = '#fff';
+            copyButton.style.color = '#667eea';
         }, 2000);
     }).catch(() => {
         alert('Failed to copy!');
